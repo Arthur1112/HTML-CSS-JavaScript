@@ -13,3 +13,10 @@ function doStuff() {
     // find the <section> tag, and add to the end our new paragraph
     document. querySelector('section').appendChild(message);
 }
+
+x = 0
+
+function countTheClicks() {
+    x +=1
+    document.getElementById('clicks').innerHTML = x
+};
